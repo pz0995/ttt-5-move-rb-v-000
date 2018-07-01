@@ -3,3 +3,19 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+
+puts "Welcome to Tic Tac Toe!"
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Where would you like to go?"
+
+move = move
+input = move
+input = gets.strip
+move = input.to_i
+move = input - 1
+display_board(board)
+input_to_index(board)
+
+
+#display_board, #input_to_index and #move methods in lib/move.rb and writing the code that interacts with the command line in the bin/move file.
